@@ -1,0 +1,30 @@
+﻿.header-module{width: 220px; height: 29px; float: left; background: #b2becf; margin-top:7px;}
+.header-module .text{line-height: 29px; color: #354b74; margin-left: 14px;}
+.content-module{width: 220px; float: left; padding-bottom: 12px; background: #dbdbd8;}
+.content-module ul{width: 100%; float: left;}
+.content-module ul li{list-style: none; line-height: 29px; height: 29px; border-bottom:1px solid #b2becf; border-left:1px solid #b2becf; border-right:1px solid #b2becf;}
+.content-module ul li:hover{ background: #b3d4ff;}
+.content-module ul li a{ color: #30369c; text-decoration:none; padding-left: 15px; display:block;}
+.content-module ul li a:hover{color: #ffffff;}
+
+/*----------------Content-Module--------------------*/
+.Managead{width:100%; border:1px solid #0048c4; float:left; background-color:White;}
+.header-Managead{width:99.5%; height:23px; float:left; background:#0048c4; color:white; padding-left:5px;}
+.content-Managead{width:100%; float:left; padding:1px;}
+.admd-tieude{text-align:center; margin-bottom:15px;}
+.content-post{margin:40px 10px 10px 80px; float:left; position:absolute; z-index:500; background:#FFF;
+    top: 30%;
+    left: 20%;
+}
+.content-data{float:left;}
+
+/*----------------Module-QTtaikhoan-------------------*/
+.data_supost{width:100%; float:left;}
+.GridViewLoaisach{float:left;}
+.PanelLSach{float:left; border:1px solid blue;}
+.content-data-loaisach{float:left; margin-left:6px;}
+
+/*----------------QT Sach------------------------------*/
+.imgAnhbia{max-width:175px; max-height:200px;}
+.ImgbtnCloseForm{float:right;}
+.PanelSupostSach{float:left;}
