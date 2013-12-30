@@ -47,7 +47,7 @@
                                 </div>
                             </div>
                             <div class="divtbfooter">
-                                <a href="PageBanbecuatoi.aspx">Danh sách bạn bè</a>
+                                <a href="/PageBanbecuatoi.aspx">Danh sách bạn bè</a>
                             </div>
                         </div>
                     </li>
@@ -96,7 +96,7 @@
                                         
                         </div>
                         <div class="divtbfooter">
-                            <a href="TinNhan.aspx">Đến hòm thư của bạn</a>
+                            <a href="/TinNhan.aspx">Đến hòm thư của bạn</a>
                         </div>
                     </div>
                 </li>
