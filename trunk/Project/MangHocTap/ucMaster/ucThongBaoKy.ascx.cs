@@ -118,7 +118,7 @@ namespace MangHocTap.ucMaster
             var dttb = from tb in db.ThongBaoBinhLuans
                        join sv in db.SinhViens on tb.ID equals sv.id
                        where tb.ID == (int)Session["ID"]
-                       select new { sv.hoten, tb.Link, tb.NoiDung };
+                       select new { sv.hoten, tb.ID, tb.loai, tb.mabaiviet, tb.Link, tb.NoiDung };
             if (dttb.Count() > 0)
             {
                 sothongbao = dttb.Count().ToString();
@@ -173,6 +173,17 @@ namespace MangHocTap.ucMaster
         {
             loadTbtinnhan();
             LoadLoimoikb();
+            Loadthongbao();
+        }
+
+        protected void RepeaterThongbao_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            string[] arrid = e.CommandArgument.ToString().Split(' ');
+            MangHocTapDBDataContext db = new MangHocTapDBDataContext();
+            ThongBaoBinhLuan tbbl = db.ThongBaoBinhLuans.Single(p => p.ID == int.Parse(arrid[0]) && p.mabaiviet == int.Parse(arrid[1]) && p.loai == int.Parse(arrid[2]));
+            db.ThongBaoBinhLuans.DeleteOnSubmit(tbbl);
+            db.SubmitChanges();
+            Response.Redirect(e.CommandName);
         }
     }
 }
