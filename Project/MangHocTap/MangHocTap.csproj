@@ -91,6 +91,14 @@
     <Content Include="CSS\DSBanBe.css" />
     <Content Include="CSS\HocKy.css" />
     <Content Include="CSS\Images\footer_bg.png" />
+    <Content Include="CSS\QLtaikhoan\Images\edit-user.png" />
+    <Content Include="CSS\QLtaikhoan\Images\edit.png" />
+    <Content Include="CSS\QLtaikhoan\Images\icon-delete.png" />
+    <Content Include="CSS\QLtaikhoan\Images\icon-more.png" />
+    <Content Include="CSS\QLtaikhoan\Images\icon-more2.png" />
+    <Content Include="CSS\QLtaikhoan\Images\icon-xacthuc.png" />
+    <Content Include="CSS\QLtaikhoan\Module.css" />
+    <Content Include="CSS\QLtaikhoan\QLTaikhoan.css" />
     <Content Include="CSS\ucFooter.css" />
     <Content Include="Images\abanner.jpg" />
     <Content Include="CSS\Images\bg-black.jpg" />
@@ -191,6 +199,8 @@
     <Content Include="Nhom\ucThaoLuan.ascx" />
     <Content Include="PageBanbecuatoi.aspx" />
     <Content Include="PageTimkiembb.aspx" />
+    <Content Include="QLTaikhoansv.aspx" />
+    <Content Include="QLTruonghoc.aspx" />
     <Content Include="Thaydoittcanhan.aspx" />
     <Content Include="TinNhan.aspx" />
     <Content Include="tooltipster-master\css\tooltipster.css" />
@@ -378,6 +388,20 @@
       <DependentUpon>PageTimkiembb.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLTaikhoansv.aspx.cs">
+      <DependentUpon>QLTaikhoansv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QLTaikhoansv.aspx.designer.cs">
+      <DependentUpon>QLTaikhoansv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QLTruonghoc.aspx.cs">
+      <DependentUpon>QLTruonghoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QLTruonghoc.aspx.designer.cs">
+      <DependentUpon>QLTruonghoc.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
