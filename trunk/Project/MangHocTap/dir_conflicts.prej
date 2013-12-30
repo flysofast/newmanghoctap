@@ -1,0 +1,15 @@
+Trying to add new property 'svn:ignore'
+but the property already exists.
+<<<<<<< (local property value)
+MangHocTapDB.cs
+MangHocTapDB.dbml
+MangHocTapDB.dbml.layout
+bin
+obj
+=======
+MangHocTapDB.dbml
+MangHocTapDB.dbml.layout
+MangHocTapDB.designer.cs
+bin
+obj
+>>>>>>> (incoming property value)

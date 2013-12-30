@@ -22,7 +22,9 @@ namespace MangHocTap.Classes
 
         static void BuildTable()
         {
+            dt = null;
             dt = new DataTable();
+           
             dt.Columns.Add("ID", typeof(string));
             dt.Columns.Add("tensukien", typeof(string));
             dt.Columns.Add("noidung", typeof(string));
