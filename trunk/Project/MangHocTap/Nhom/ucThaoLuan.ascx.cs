@@ -133,7 +133,7 @@ namespace MangHocTap.Nhom.NhomChung.Truong.uc
                 {
                     ThongBaoBinhLuan tb = new ThongBaoBinhLuan();
                     tb.ID = sv.id;
-                    tb.Link = "#";
+                    tb.Link = Request.Path;
                     tb.loai = 1;
                     tb.mabaiviet = maBV;
                     tb.NoiDung = "Bạn có một thông báo mới từ nhóm " + tennhom;
