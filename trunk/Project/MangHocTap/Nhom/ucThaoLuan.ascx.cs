@@ -165,7 +165,7 @@ namespace MangHocTap.Nhom.NhomChung.Truong.uc
             {
                 tb = new ThongBaoBinhLuan();
                 tb.ID = IDPoster;
-                tb.Link = "#";
+                tb.Link = Request.Path;
                 tb.loai = 1;
                 tb.mabaiviet = maBV;
                 tb.NoiDung = commenters + " đã bình luận vào bài viết của bạn";
