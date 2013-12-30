@@ -15,28 +15,30 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+
     <form id="form1" runat="server">
-    <div>
-      <div id="pages">
-        <div id="page">        
-          
-          <div id="me-se">  
-            <div id="menu">
-                <uc1:ucmenu runat="server" id="ucmenu" />
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div>
+            <div id="pages">
+                <div id="page">
+
+                    <div id="me-se">
+                        <div id="menu">
+                            <uc1:ucmenu runat="server" ID="ucmenu" />
+                        </div>
+                    </div>
+                    <div id="banner">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="Images/abanner.jpg" Width="850px" Height="100px" /></div>
+                    <div id="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="footer">
+                        <uc1:ucfooter runat="server" ID="ucfooter" />
+                    </div>
+                </div>
             </div>
-         </div> 
-         <div id="banner"><asp:Image ID="Image1" runat="server" ImageUrl="Images/abanner.jpg" Width="850px" Height="100px" /></div>
-         <div id="content">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-                </asp:ContentPlaceHolder>
-         </div> 
-         <div id="footer">
-             <uc1:ucfooter runat="server" id="ucfooter" />
-         </div>            
-        </div>                
-     </div>
-    </div>
+        </div>
     </form>
 </body>
 </html>

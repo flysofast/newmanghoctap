@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
+    <Content Include="AdminQuanLyNhom.aspx" />
     <Content Include="CSS\BoxTinNhan.css" />
     <Content Include="CSS\controls.css" />
     <Content Include="CSS\AdminMaster.css" />
@@ -220,6 +221,7 @@
     <Content Include="ucMaster\ucTimeline.ascx" />
     <Content Include="ucMaster\ucTimkiembanbe.ascx" />
     <Content Include="ucMaster\ucTKB.ascx" />
+    <Content Include="ucQLNhom\QlTruong.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -238,6 +240,13 @@
     </Compile>
     <Compile Include="AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminQuanLyNhom.aspx.cs">
+      <DependentUpon>AdminQuanLyNhom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminQuanLyNhom.aspx.designer.cs">
+      <DependentUpon>AdminQuanLyNhom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Classes\CMahoa.cs" />
     <Compile Include="Classes\DateTimeExtensions.cs" />
@@ -564,6 +573,13 @@
     </Compile>
     <Compile Include="ucMaster\ucTKB.ascx.designer.cs">
       <DependentUpon>ucTKB.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucQLNhom\QlTruong.ascx.cs">
+      <DependentUpon>QlTruong.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucQLNhom\QlTruong.ascx.designer.cs">
+      <DependentUpon>QlTruong.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

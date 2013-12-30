@@ -16,8 +16,10 @@
             #header #tabmenu ul li {
                 float: left;
                 list-style: none;
-                width: 90px;
+                /*min-width: 90px;*/
                 text-align: center;
+                padding-right:15px;
+                padding-left:15px;
                 height: 100%;
             }
 

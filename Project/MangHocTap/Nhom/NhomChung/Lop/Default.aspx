@@ -63,7 +63,7 @@
                 <%-- <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
                 <li><a href="ThaoLuan.aspx">Thảo luận</a></li>--%>
                 <li id="1"><span>Giới thiệu</span></li>
-                <li id="2" class="active"><span>Thảo luận</span></li>
+<li id="2" class="active"><span>Thảo luận - Thông báo</span></li>
             </ul>
         </div>
     </div>

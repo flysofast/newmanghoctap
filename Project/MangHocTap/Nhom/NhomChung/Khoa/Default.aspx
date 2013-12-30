@@ -6,7 +6,6 @@
 <asp:Content ClientIDMode="AutoID" ContentPlaceHolderID="head" runat="server">
     <link href="/CSS/NhomPages.css" rel="stylesheet" />
     <script src="/JQuery/jquery-ui.js.js"></script>
-    <script src="/JQuery/jquery202.js"></script>
     <style>
         #GioiThieu .title {
             background-color: #258cb9;
@@ -64,7 +63,7 @@
                 <%-- <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
                 <li><a href="ThaoLuan.aspx">Thảo luận</a></li>--%>
                 <li id="1" ><span>Giới thiệu</span></li>
-                <li id="2" class="active"><span>Thảo luận</span></li>
+                <li id="2" class="active"><span>Thảo luận - Thông báo</span></li>
             </ul>
         </div>
     </div>
