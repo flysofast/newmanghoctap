@@ -1,0 +1,41 @@
+﻿*
+{
+    margin: 0; padding:0;
+}
+.clssuattcn{width:100%; margin-left:1px; float:left; background-color:White; border:1px solid blue;}
+.header-ttcn{width:99%; margin:2px; height:23px; float:left; background:#258cb9; line-height:23px; color:#143faf; padding-left:5px;}
+.header-ttcn h3{font-weight:800; font-size:14px; line-height:20px;}
+.content-ttcn{width:99.8%; float:left; padding:1px;}
+.clschangepf h3{font-weight:800; font-size:17px;}
+
+.ctdsbanbe
+{
+    width:100%; min-height:30px; float:left;
+}
+.divctbanbetk
+{
+    width:100%; float:left; height:80px; padding-top:15px;
+}
+.divctbanbetk .clsimgAvatarbb
+{
+    float:left; padding-right:4px;
+}
+.ctdsbanbe .clsTenbanbe{float:left; width:80%; font-weight:800; padding-bottom:2px;}
+.divtttruonglop{width:64%; float:left;}
+.divtttruonglop .divPhandong
+{
+    float:left; width:100%;
+}
+.divtttruonglop .lb2
+{
+    color:#258cb9;
+}
+.ctdsbanbe .btnlabanbe
+{
+    float:left;
+}
+.lblSobanbecuaban
+{
+    width:100%; float:left; line-height:20px; margin-left:10px; font-size:15px; font-weight:800;
+    margin-bottom:7px; color:#258cb9;
+}

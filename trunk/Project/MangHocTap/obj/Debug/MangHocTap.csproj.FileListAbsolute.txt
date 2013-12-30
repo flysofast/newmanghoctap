@@ -1,0 +1,16 @@
+D:\MangHocTapSVN\Project\MangHocTap\obj\Debug\MangHocTap.csprojResolveAssemblyReference.cache
+D:\MangHocTapSVN\Project\MangHocTap\bin\MangHocTap.dll.config
+D:\MangHocTapSVN\Project\MangHocTap\bin\MangHocTap.dll
+D:\MangHocTapSVN\Project\MangHocTap\bin\MangHocTap.pdb
+D:\MangHocTapSVN\Project\MangHocTap\bin\CKEditor.NET.dll
+D:\MangHocTapSVN\Project\MangHocTap\bin\DayPilot.dll
+D:\MangHocTapSVN\Project\MangHocTap\obj\Debug\MangHocTap.dll
+D:\MangHocTapSVN\Project\MangHocTap\obj\Debug\MangHocTap.pdb
+C:\MangHocTapSVN\Project\MangHocTap\bin\MangHocTap.dll.config
+C:\MangHocTapSVN\Project\MangHocTap\bin\MangHocTap.dll
+C:\MangHocTapSVN\Project\MangHocTap\bin\MangHocTap.pdb
+C:\MangHocTapSVN\Project\MangHocTap\bin\CKEditor.NET.dll
+C:\MangHocTapSVN\Project\MangHocTap\bin\DayPilot.dll
+C:\MangHocTapSVN\Project\MangHocTap\obj\Debug\MangHocTap.dll
+C:\MangHocTapSVN\Project\MangHocTap\obj\Debug\MangHocTap.pdb
+C:\MangHocTapSVN\Project\MangHocTap\obj\Debug\MangHocTap.csprojResolveAssemblyReference.cache

@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMonHoc.master.cs" Inherits="MangHocTap.NestedMonHoc" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="CSS/MonHoc/masterMonHoc.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="banner-mh">
+        <img src="Images/bannermh.jpg" width="850" />
+    </div>
+    <div id="headermh">       
+        <div class="he1">
+            <% taomenu(); %>
+        </div>
+       <%-- <div id="search">
+            <asp:TextBox CssClass="tk" ID="txttk" placeholder="Nhập tên sinh viên cần tìm ở đây" runat="server" OnTextChanged="txttk_TextChanged" AutoPostBack="true"></asp:TextBox>
+            <asp:ImageButton ID="imgbtntimkiem" CssClass="anh" OnClick="imgbtntimkiem_Click" ImageUrl="~/Images/findicon.png" runat="server" />
+        </div>--%>
+    </div>
+    <div id="contentmh">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    </div>    
+</asp:Content>

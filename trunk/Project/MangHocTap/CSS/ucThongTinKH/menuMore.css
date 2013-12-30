@@ -1,0 +1,16 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.dl-trigger
+{
+    text-align:center; line-height:24px; color:white; background:#a8a8e2; cursor:pointer; width:101.5%
+}
+
+#footerThongtintk .divMore a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+#footerThongtintk .divMore a:hover {
+	color: #fff;
+}

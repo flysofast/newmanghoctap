@@ -1,0 +1,80 @@
+﻿.page #center {
+    padding: 0px;
+}
+
+#center .noidung #banner-mh {
+    height: 110px;
+    background-color: #73b8ba;
+}
+
+
+#center .noidung #headermh {
+    background-color: #94a2bd;
+    border-bottom: 2px solid #808080;
+    height:35px;
+}
+#headermh #search {
+    float: left;
+    border: 1px solid #808080;
+    background-color: white;
+    margin: 5px;
+}
+
+    #headermh #search .tk {
+        height: 17px;
+        width: 200px;
+        float: left;
+        border: 1px solid white;
+        text-indent: 5px;
+        padding-top: 3px;
+    }
+
+    #headermh #search .anh {
+        height: 22px;
+        float: left;
+        border-left: 1px solid #d0d4d8;
+        background-color: #f8f3f3;
+    }
+#headermh .he1 {
+    float: left;
+}
+.he1 .hemenu {
+    border-right: 1px solid #808080;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    color: #393737;
+    font-weight: 800;
+    text-decoration: none;
+}
+    .he1 .hemenu:hover {
+        color: #ae1f1f;
+        text-decoration: underline;
+    }
+.he1 #hemenu1 {
+    width: 200px;
+}
+#contentmh .submonhoc {
+    padding: 5px;
+    padding-top: 0px;
+}
+.submonhoc .imgheader {
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: -2px;
+}
+.submonhoc .bodermonhoc {
+    float:left;   
+    width:840px; 
+}
+.bodermonhoc .tieudeheader {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border: 1px solid #258CB9;
+    padding: 5px;
+    background-color: #258CB9;
+}
+.bodermonhoc .kqmh {
+    padding: 5px;
+}

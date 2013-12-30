@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MangHocTap.Site1" %>
+
+<%@ Register Src="~/ucMaster/ucDanhSachHocKy.ascx" TagPrefix="uc1" TagName="ucDanhSachHocKy" %>
+<%@ Register Src="~/ucMaster/ucTimeline.ascx" TagPrefix="uc1" TagName="ucTimeline" %>
+<%@ Register Src="~/ucMaster/ucTKB.ascx" TagPrefix="uc1" TagName="ucTKB" %>
+<%@ Register Src="~/ucMaster/ucThongTinKH.ascx" TagPrefix="uc1" TagName="ucThongTinKH" %>
+<%@ Register Src="~/ucMaster/ucNhomChung.ascx" TagPrefix="uc1" TagName="ucNhomChung" %>
+<%@ Register Src="~/ucMaster/ucDSBanBe.ascx" TagPrefix="uc1" TagName="ucDSBanBe" %>
+<%@ Register Src="~/ucMaster/ucTimkiembanbe.ascx" TagPrefix="uc1" TagName="ucTimkiembanbe" %>
+<%@ Register Src="~/ucMaster/ucThongBaoKy.ascx" TagPrefix="uc1" TagName="ucThongBaoKy" %>
+<%@ Register Src="~/ucMaster/TimesandLike.ascx" TagPrefix="uc1" TagName="TimesandLike" %>
+<%@ Register Src="~/ucMaster/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mạng Học Tập Đại Học Huế</title>
+    <link href="/CSS/master.css" rel="stylesheet" />
+    <link href="/CSS/DanhSachHocKy.css" rel="stylesheet" />
+    <script src="/JQuery/jquery202.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+    </script>
+    <script src="/JQuery/wz_tooltip.js"></script>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <div class="page">
+            <div id="vientren"></div>
+            <div id="left" class="pages">
+                <div id="hdleft1"><a href="/Default.aspx">Trang chủ</a></div>
+                <div id="hdleft2">
+                    <uc1:ucThongBaoKy runat="server" ID="ucThongBaoKy" />
+                </div>
+                <div id="taikhoan" class="muc">
+                    <uc1:ucThongTinKH runat="server" ID="ucThongTinKH" />
+                </div>
+                <div id="thoigianbieu" class="muc">
+                    <div class="tieude"><a href="/LichSuKien.aspx">THỜI GIAN BIỂU</a></div>
+                    <uc1:ucTKB runat="server" ID="ucTKB" />
+                </div>   
+                <div id="Thoigianvalike" class="muc">
+                    <div class="tieude"><a href="#">THÍCH VÀ CHIA SẼ</a></div>
+                    <uc1:TimesandLike runat="server" id="TimesandLike" />
+                </div>             
+            </div>
+            <div id="center" class="pages">
+                <div id="timeline">
+                    <uc1:ucTimeline runat="server" ID="ucTimeline" />
+                </div>
+
+                <div class="noidung">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="right" class="pages">
+
+                <div id="nhomchung1" class="muc">
+                    <uc1:ucNhomChung runat="server" ID="ucNhomChung" />
+                </div>
+                <div id="khoahoc" class="muc">
+                    <div class="tieude"><a href="/TrangThongKeDiem.aspx">KHÓA HỌC</a></div>
+                    <uc1:ucDanhSachHocKy runat="server" ID="ucDanhSachHocKy" />
+                </div>
+                <div class="muc" id="tbtimkiem">
+                    <uc1:ucTimkiembanbe runat="server" ID="ucTimkiembanbe" />
+                </div>
+                <div id="dsbanbe" class="muc">
+                    <div class="tieude"><a href="PageBanbecuatoi.aspx">BẠN BÈ</a></div>
+                    <uc1:ucDSBanBe runat="server" ID="ucDSBanBe" />
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <uc1:ucFooter runat="server" ID="ucFooter" />
+        </div>
+    </form>
+</body>
+</html>

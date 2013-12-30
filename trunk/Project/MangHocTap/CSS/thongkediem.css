@@ -1,0 +1,118 @@
+﻿.page #center {
+    padding: 0px;
+}
+#banner-tkd {
+    height: 110px;
+}
+#tkdiem {
+    padding: 5px;
+    padding-top: 0px;
+}
+#tkdiem #duongcong {
+    border: 1px solid #ABADB3;
+    margin-top: 5px;
+    border-radius: 2em 2em 0 0;
+    border-bottom: none;
+    height:20px;
+}
+#bodertkd {
+    float:left;
+    width:840px;
+}
+    #bodertkd #tieude {
+        font-weight: bold;
+        color: white;
+        border: 1px solid #258CB9;
+        padding: 5px;
+        background-color: #258CB9;
+        text-align:center;
+    }
+ #bodertkd .dlcachtk{
+     width:200px;
+ }
+ #bodertkd .kqtieudehd{
+     color:#097eaa;
+     font-size:15px;
+     font-weight:800;
+     padding-top:10px;
+     padding-bottom:5px;
+     text-decoration:underline;
+ }
+  #bodertkd .kqtieude{
+    font-weight:800;
+    color:#1f4651;
+    width:120px;
+ }
+    #bodertkd .kqnoidung{
+    color:#a42e2e;
+ }
+#tkdiem a {
+    color: blue;
+    text-decoration: none;
+}
+
+    #tkdiem a:hover {
+        color: red;
+    }
+/*Messege Box*/
+.msboxtkd {
+    width: 500px;
+    height: 130px;
+    border: 2px solid #ABADB3;
+    top: 35%;
+    left: 35%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    color: #097eaa;
+}
+
+.mstb {
+    width: 300px;
+    height: 130px;
+    border: 2px solid #ABADB3;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    color: #097eaa;
+}
+
+.thongbaoOK {
+    border: 1px solid #b5b4b4;
+    border-radius: 3px;
+    color: #097eaa;
+    height: 25px;
+    width: 60px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+    .thongbaoOK:hover {
+        background-color: #097eaa;
+        color: white;
+    }
+
+.mdtbtieude {
+    height: 20px;
+    background-color: #ABADB3;
+    font-weight: 800;
+}
+
+.pmsbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.77);
+    /*background-color:red;*/
+    z-index: 100;
+}

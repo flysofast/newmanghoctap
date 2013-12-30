@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="MangHocTap.AdminMaster" %>
+
+<%@ Register Src="~/ucMaster/uc-menu.ascx" TagPrefix="uc1" TagName="ucmenu" %>
+<%@ Register Src="~/ucMaster/uc-footer.ascx" TagPrefix="uc1" TagName="ucfooter" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS/AdminMaster.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+      <div id="pages">
+        <div id="page">        
+          
+          <div id="me-se">  
+            <div id="menu">
+                <uc1:ucmenu runat="server" id="ucmenu" />
+            </div>
+         </div> 
+         <div id="banner"><asp:Image ID="Image1" runat="server" ImageUrl="Images/abanner.jpg" Width="850px" Height="100px" /></div>
+         <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+         </div> 
+         <div id="footer">
+             <uc1:ucfooter runat="server" id="ucfooter" />
+         </div>            
+        </div>                
+     </div>
+    </div>
+    </form>
+</body>
+</html>

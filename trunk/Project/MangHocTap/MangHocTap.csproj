@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F626AE3-9E71-4C82-86CA-D3E80DB0D4ED}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MangHocTap</RootNamespace>
+    <AssemblyName>MangHocTap</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET">
+      <HintPath>..\..\DLL\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="DayPilot">
+      <HintPath>..\..\DLL\DayPilot.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.aspx" />
+    <Content Include="CSS\BoxTinNhan.css" />
+    <Content Include="CSS\controls.css" />
+    <Content Include="CSS\AdminMaster.css" />
+    <Content Include="CSS\DangNhap.css" />
+    <Content Include="CSS\DangNhap\animate-custom.css" />
+    <Content Include="CSS\DangNhap\fonts\BebasNeue-webfont.eot" />
+    <Content Include="CSS\DangNhap\fonts\BebasNeue-webfont.svg" />
+    <Content Include="CSS\DangNhap\fonts\BebasNeue-webfont.ttf" />
+    <Content Include="CSS\DangNhap\fonts\BebasNeue-webfont.woff" />
+    <Content Include="CSS\DangNhap\fonts\Dharma Type Font License.txt" />
+    <Content Include="CSS\DangNhap\fonts\fontomas-webfont.eot" />
+    <Content Include="CSS\DangNhap\fonts\fontomas-webfont.svg" />
+    <Content Include="CSS\DangNhap\fonts\fontomas-webfont.ttf" />
+    <Content Include="CSS\DangNhap\fonts\fontomas-webfont.woff" />
+    <Content Include="CSS\DangNhap\fonts\franchise-bold-webfont.eot" />
+    <Content Include="CSS\DangNhap\fonts\franchise-bold-webfont.svg" />
+    <Content Include="CSS\DangNhap\fonts\franchise-bold-webfont.ttf" />
+    <Content Include="CSS\DangNhap\fonts\franchise-bold-webfont.woff" />
+    <Content Include="CSS\DangNhap\styleformlogin.css" />
+    <Content Include="CSS\DanhSachHocKy.css" />
+    <Content Include="CSS\DSBanBe.css" />
+    <Content Include="CSS\HocKy.css" />
+    <Content Include="CSS\Images\footer_bg.png" />
+    <Content Include="Images\abanner.jpg" />
+    <Content Include="CSS\Images\bg-black.jpg" />
+    <Content Include="CSS\Images\bg-borderheader.png" />
+    <Content Include="CSS\Images\bg-content-left.png" />
+    <Content Include="CSS\Images\bg-content-right.png" />
+    <Content Include="CSS\Images\bg-content.jpg.png" />
+    <Content Include="CSS\Images\bg-header.png" />
+    <Content Include="CSS\Images\cld_trang.jpg" />
+    <Content Include="CSS\Images\cld_xanh.png" />
+    <Content Include="CSS\Images\facebook-icon.png" />
+    <Content Include="CSS\Images\topshownoti.png" />
+    <Content Include="CSS\jquery.jnotify.css" />
+    <Content Include="CSS\master.css" />
+    <Content Include="CSS\menusite.css" />
+    <Content Include="CSS\MonHoc\baiviet.css" />
+    <Content Include="CSS\MonHoc\chinhsua.css" />
+    <Content Include="CSS\MonHoc\chitiet.css" />
+    <Content Include="CSS\MonHoc\ghichep.css" />
+    <Content Include="CSS\MonHoc\masterMonHoc.css" />
+    <Content Include="CSS\MonHoc\taobaiviet.css" />
+    <Content Include="CSS\NhomPages.css" />
+    <Content Include="CSS\PageBanbecuatoi.css" />
+    <Content Include="CSS\PageTimkiembb.css" />
+    <Content Include="CSS\simpleandperfect_nam.css" />
+    <Content Include="CSS\Thaydoittcanhan.css" />
+    <Content Include="CSS\Thongbao.css" />
+    <Content Include="CSS\thongkediem.css" />
+    <Content Include="CSS\timeline.css" />
+    <Content Include="CSS\ucNhomChung.css" />
+    <Content Include="CSS\ucThongTinKH\component.css" />
+    <Content Include="CSS\ucThongTinKH\fonts\icomoon.dev.svg" />
+    <Content Include="CSS\ucThongTinKH\fonts\icomoon.eot" />
+    <Content Include="CSS\ucThongTinKH\fonts\icomoon.svg" />
+    <Content Include="CSS\ucThongTinKH\fonts\icomoon.ttf" />
+    <Content Include="CSS\ucThongTinKH\fonts\icomoon.woff" />
+    <Content Include="CSS\ucThongTinKH\fonts\license.txt" />
+    <Content Include="CSS\ucThongTinKH\menuMore.css" />
+    <Content Include="CSS\ucTimkiembanbe.css" />
+    <Content Include="CSS\ucTKB.css" />
+    <Content Include="CSS\UC_ThongtinTK.css" />
+    <Content Include="DangNhap.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Default.aspx" />
+    <Content Include="ImagesAcc\Avatar\default_avatar_boy.jpg" />
+    <Content Include="ImagesAcc\Avatar\default_avatar_girl.png" />
+    <Content Include="ImagesAcc\Avatar\jeremy-code-lyoko20090712171022.jpg" />
+    <Content Include="ImagesAcc\icon-offline.png" />
+    <Content Include="ImagesAcc\icon-onlinefr.png" />
+    <Content Include="ImagesAcc\ImgLevel\file14.jpg" />
+    <Content Include="ImagesAcc\ImgLevel\nhapmon.jpg" />
+    <Content Include="ImagesAcc\ImgLevel\tanbinh.jpg" />
+    <Content Include="Images\bannerHK.jpg" />
+    <Content Include="Images\bannermh.jpg" />
+    <Content Include="Images\bannertkd.jpg" />
+    <Content Include="Images\bannerTruong.png" />
+    <Content Include="Images\btnclose.jpg" />
+    <Content Include="Images\btnKetban.png" />
+    <Content Include="Images\btnthem.png" />
+    <Content Include="Images\chopkhungbvht.png" />
+    <Content Include="Images\chopkhungcsmh.png" />
+    <Content Include="Images\chopkhungHK.png" />
+    <Content Include="Images\chopkhungKNHK.png" />
+    <Content Include="Images\chopkhungTMH.png" />
+    <Content Include="Images\cld_trang.jpg" />
+    <Content Include="Images\cld_xanh.png" />
+    <Content Include="Images\Delete-icon.png" />
+    <Content Include="Images\Delete_Icon.png" />
+    <Content Include="Images\DHKH\DHKH-Map.PNG" />
+    <Content Include="Images\file_edit.png" />
+    <Content Include="Images\Huyboloimoi.png" />
+    <Content Include="Images\ic_dialog_cancel.png" />
+    <Content Include="Images\findicon.png" />
+    <Content Include="Images\light_wool.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\main_img.png" />
+    <Content Include="Images\seach-iconbb.png" />
+    <Content Include="Images\thembaiviet.jpg" />
+    <Content Include="Images\thoigianTrang.png" />
+    <Content Include="Images\Update.png" />
+    <Content Include="Images\windows8.gif" />
+    <Content Include="Images\Xacnhanbanbe.png" />
+    <Content Include="JQuery\jquery.jnotify.js" />
+    <Content Include="JQuery\jquery202.js" />
+    <Content Include="JQuery\JSNotiface.js" />
+    <Content Include="JQuery\menu.js" />
+    <Content Include="JQuery\wz_tooltip.js" />
+    <Content Include="LichSuKien.aspx" />
+    <Content Include="Nhom\NhomChung\KhoaHoc\Default.aspx" />
+    <Content Include="Nhom\NhomChung\KhoaHoc\uc\ucGioiThieu.ascx" />
+    <Content Include="Nhom\NhomChung\Khoa\Default.aspx" />
+    <Content Include="Nhom\NhomChung\Khoa\uc\ucGioiThieu.ascx" />
+    <Content Include="Nhom\NhomChung\Khoa\uc\ucThaoLuan.ascx" />
+    <Content Include="Nhom\NhomChung\Lop\Default.aspx" />
+    <Content Include="Nhom\NhomChung\Lop\uc\ucGioiThieu.ascx" />
+    <Content Include="Nhom\NhomChung\Truong\Default.aspx" />
+    <Content Include="Nhom\NhomChung\Truong\uc\ucGioiThieu.ascx" />
+    <Content Include="Nhom\ucThaoLuan.ascx" />
+    <Content Include="PageBanbecuatoi.aspx" />
+    <Content Include="PageTimkiembb.aspx" />
+    <Content Include="Thaydoittcanhan.aspx" />
+    <Content Include="TinNhan.aspx" />
+    <Content Include="tooltipster-master\css\tooltipster.css" />
+    <Content Include="tooltipster-master\js\jquery.tooltipster.js" />
+    <Content Include="tooltipster-master\js\jquery.tooltipster.min.js" />
+    <Content Include="TrangBVMHChiTiet.aspx" />
+    <Content Include="TrangHocKy.aspx" />
+    <Content Include="TrangMonHocBaiViet.aspx" />
+    <Content Include="TrangMonHocChinhSua.aspx" />
+    <Content Include="TrangMonHocGhiChep.aspx" />
+    <Content Include="TrangTaoBVKNHK.aspx" />
+    <Content Include="TrangTaoBVMH.aspx" />
+    <Content Include="TrangTaoBVMH2.aspx" />
+    <Content Include="TrangTaoBVMH3.aspx" />
+    <Content Include="TrangThongKeDiem.aspx" />
+    <Content Include="ucHocKy\ucHK.ascx" />
+    <Content Include="ucHocKy\ucKinhNghiem.ascx" />
+    <Content Include="ucHocKy\ucTaoMonHoc.ascx" />
+    <Content Include="ucMaster\TimesandLike.ascx" />
+    <Content Include="ucMaster\uc-footer.ascx" />
+    <Content Include="ucMaster\uc-menu.ascx" />
+    <Content Include="ucMaster\ucDanhSachHocKy.ascx" />
+    <Content Include="ucMaster\ucDSBanBe.ascx" />
+    <Content Include="ucMaster\ucFooter.ascx" />
+    <Content Include="ucMaster\ucNhomChung.ascx" />
+    <Content Include="ucMaster\ucThongBaoKy.ascx" />
+    <Content Include="ucMaster\ucThongTinKH.ascx" />
+    <Content Include="ucMaster\ucTimeline.ascx" />
+    <Content Include="ucMaster\ucTimkiembanbe.ascx" />
+    <Content Include="ucMaster\ucTKB.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\CMahoa.cs" />
+    <Compile Include="Classes\DateTimeExtensions.cs" />
+    <Compile Include="Classes\GroupPost.cs" />
+    <Compile Include="Classes\GroupPostReply.cs" />
+    <Compile Include="Classes\NotificationHelper.cs" />
+    <Compile Include="Classes\NotificationType.cs" />
+    <Compile Include="Classes\RedExcel.cs" />
+    <Compile Include="Classes\SuKienThoiGianBieu.cs" />
+    <Compile Include="Classes\SuKienTKB.cs" />
+    <Compile Include="DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuKien.aspx.cs">
+      <DependentUpon>LichSuKien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LichSuKien.aspx.designer.cs">
+      <DependentUpon>LichSuKien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MangHocTapDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MangHocTapDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="NestedMonHoc.master.cs">
+      <DependentUpon>NestedMonHoc.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedMonHoc.master.designer.cs">
+      <DependentUpon>NestedMonHoc.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\KhoaHoc\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\KhoaHoc\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\KhoaHoc\uc\ucGioiThieu.ascx.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\KhoaHoc\uc\ucGioiThieu.ascx.designer.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Khoa\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Khoa\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Khoa\uc\ucGioiThieu.ascx.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Khoa\uc\ucGioiThieu.ascx.designer.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Khoa\uc\ucThaoLuan.ascx.cs">
+      <DependentUpon>ucThaoLuan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Khoa\uc\ucThaoLuan.ascx.designer.cs">
+      <DependentUpon>ucThaoLuan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Lop\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Lop\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Lop\uc\ucGioiThieu.ascx.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Lop\uc\ucGioiThieu.ascx.designer.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Truong\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Truong\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Truong\uc\ucGioiThieu.ascx.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\NhomChung\Truong\uc\ucGioiThieu.ascx.designer.cs">
+      <DependentUpon>ucGioiThieu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom\ucThaoLuan.ascx.cs">
+      <DependentUpon>ucThaoLuan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhom\ucThaoLuan.ascx.designer.cs">
+      <DependentUpon>ucThaoLuan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageBanbecuatoi.aspx.cs">
+      <DependentUpon>PageBanbecuatoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageBanbecuatoi.aspx.designer.cs">
+      <DependentUpon>PageBanbecuatoi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageTimkiembb.aspx.cs">
+      <DependentUpon>PageTimkiembb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageTimkiembb.aspx.designer.cs">
+      <DependentUpon>PageTimkiembb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Thaydoittcanhan.aspx.cs">
+      <DependentUpon>Thaydoittcanhan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Thaydoittcanhan.aspx.designer.cs">
+      <DependentUpon>Thaydoittcanhan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TinNhan.aspx.cs">
+      <DependentUpon>TinNhan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TinNhan.aspx.designer.cs">
+      <DependentUpon>TinNhan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangBVMHChiTiet.aspx.cs">
+      <DependentUpon>TrangBVMHChiTiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangBVMHChiTiet.aspx.designer.cs">
+      <DependentUpon>TrangBVMHChiTiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangHocKy.aspx.cs">
+      <DependentUpon>TrangHocKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangHocKy.aspx.designer.cs">
+      <DependentUpon>TrangHocKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangMonHocBaiViet.aspx.cs">
+      <DependentUpon>TrangMonHocBaiViet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangMonHocBaiViet.aspx.designer.cs">
+      <DependentUpon>TrangMonHocBaiViet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangMonHocChinhSua.aspx.cs">
+      <DependentUpon>TrangMonHocChinhSua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangMonHocChinhSua.aspx.designer.cs">
+      <DependentUpon>TrangMonHocChinhSua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangMonHocGhiChep.aspx.cs">
+      <DependentUpon>TrangMonHocGhiChep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangMonHocGhiChep.aspx.designer.cs">
+      <DependentUpon>TrangMonHocGhiChep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangTaoBVKNHK.aspx.cs">
+      <DependentUpon>TrangTaoBVKNHK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangTaoBVKNHK.aspx.designer.cs">
+      <DependentUpon>TrangTaoBVKNHK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangTaoBVMH.aspx.cs">
+      <DependentUpon>TrangTaoBVMH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangTaoBVMH.aspx.designer.cs">
+      <DependentUpon>TrangTaoBVMH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangTaoBVMH2.aspx.cs">
+      <DependentUpon>TrangTaoBVMH2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangTaoBVMH2.aspx.designer.cs">
+      <DependentUpon>TrangTaoBVMH2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangTaoBVMH3.aspx.cs">
+      <DependentUpon>TrangTaoBVMH3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangTaoBVMH3.aspx.designer.cs">
+      <DependentUpon>TrangTaoBVMH3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangThongKeDiem.aspx.cs">
+      <DependentUpon>TrangThongKeDiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangThongKeDiem.aspx.designer.cs">
+      <DependentUpon>TrangThongKeDiem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ucHocKy\ucHK.ascx.cs">
+      <DependentUpon>ucHK.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucHocKy\ucHK.ascx.designer.cs">
+      <DependentUpon>ucHK.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucHocKy\ucKinhNghiem.ascx.cs">
+      <DependentUpon>ucKinhNghiem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucHocKy\ucKinhNghiem.ascx.designer.cs">
+      <DependentUpon>ucKinhNghiem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucHocKy\ucTaoMonHoc.ascx.cs">
+      <DependentUpon>ucTaoMonHoc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucHocKy\ucTaoMonHoc.ascx.designer.cs">
+      <DependentUpon>ucTaoMonHoc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\TimesandLike.ascx.cs">
+      <DependentUpon>TimesandLike.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\TimesandLike.ascx.designer.cs">
+      <DependentUpon>TimesandLike.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\uc-footer.ascx.cs">
+      <DependentUpon>uc-footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\uc-footer.ascx.designer.cs">
+      <DependentUpon>uc-footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\uc-menu.ascx.cs">
+      <DependentUpon>uc-menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\uc-menu.ascx.designer.cs">
+      <DependentUpon>uc-menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucDanhSachHocKy.ascx.cs">
+      <DependentUpon>ucDanhSachHocKy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucDanhSachHocKy.ascx.designer.cs">
+      <DependentUpon>ucDanhSachHocKy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucDSBanBe.ascx.cs">
+      <DependentUpon>ucDSBanBe.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucDSBanBe.ascx.designer.cs">
+      <DependentUpon>ucDSBanBe.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucFooter.ascx.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucFooter.ascx.designer.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucNhomChung.ascx.cs">
+      <DependentUpon>ucNhomChung.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucNhomChung.ascx.designer.cs">
+      <DependentUpon>ucNhomChung.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucThongBaoKy.ascx.cs">
+      <DependentUpon>ucThongBaoKy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucThongBaoKy.ascx.designer.cs">
+      <DependentUpon>ucThongBaoKy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucThongTinKH.ascx.cs">
+      <DependentUpon>ucThongTinKH.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucThongTinKH.ascx.designer.cs">
+      <DependentUpon>ucThongTinKH.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucTimeline.ascx.cs">
+      <DependentUpon>ucTimeline.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucTimeline.ascx.designer.cs">
+      <DependentUpon>ucTimeline.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucTimkiembanbe.ascx.cs">
+      <DependentUpon>ucTimkiembanbe.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucTimkiembanbe.ascx.designer.cs">
+      <DependentUpon>ucTimkiembanbe.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ucMaster\ucTKB.ascx.cs">
+      <DependentUpon>ucTKB.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucMaster\ucTKB.ascx.designer.cs">
+      <DependentUpon>ucTKB.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <Content Include="NestedMonHoc.master" />
+    <Content Include="AdminMaster.Master" />
+    <Content Include="MangHocTapDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MangHocTapDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MangHocTapDB.dbml.layout">
+      <DependentUpon>MangHocTapDB.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23450</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:23450/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
