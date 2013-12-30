@@ -1,14 +1,33 @@
 ﻿.kqmh .tabmenu {
     
 }
- .kqmh #tabmenu li{
-    float:left;
-    background-color:#0094FF;
-    height:20px;
-    border:1px solid #164b71;
-    cursor:pointer;
+.kqmh #tabmenu .active {
+    float: left;
+    background-color: white;
+    height: 20px;
+    border: 1px solid #808080;
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: none;
+    font-weight: 700;
 }
- .kqmh #tabmenu{
-     margin-top:15px;
-     margin-bottom:20px;
- }
+.kqmh #tabmenu .active:hover{
+    color:#ce2d2d;
+}
+.kqmh #tabmenu {
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+.kqmh #tabmenu .nonactive {
+    float: left;
+    background-color: #cdd5cd;
+    height: 20px;
+    border: 1px solid #808080;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 5px;
+}
+.kqmh #tabmenu .nonactive:hover{
+    color:#ce2d2d;
+}

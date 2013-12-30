@@ -1,0 +1,29 @@
+﻿.baomenu {
+    background-color:#EAEAEA;
+    padding-top:10px;
+    height:22px;
+}
+.sm {
+    height:25px;
+    margin-right:2px;
+    border:1px solid #BFBFBF;
+    border-radius:3px 3px 0px 0px;
+    background-color:#eae7e7;
+    padding:3px;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+    margin-bottom:5px;
+}
+.sm:hover {
+    background-color:rgba(199, 197, 197, 0.69);
+}
+#active {
+    height:25px;
+    margin-right:2px;
+    border:1px solid #BFBFBF;
+    border-radius:3px 3px 0px 0px;
+    background-color:white;
+    padding:3px;
+    border-bottom:2px solid white;
+}
