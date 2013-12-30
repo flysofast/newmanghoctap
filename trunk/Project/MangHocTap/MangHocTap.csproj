@@ -90,6 +90,7 @@
     <Content Include="CSS\DSBanBe.css" />
     <Content Include="CSS\HocKy.css" />
     <Content Include="CSS\Images\footer_bg.png" />
+    <Content Include="CSS\ucFooter.css" />
     <Content Include="Images\abanner.jpg" />
     <Content Include="CSS\Images\bg-black.jpg" />
     <Content Include="CSS\Images\bg-borderheader.png" />
