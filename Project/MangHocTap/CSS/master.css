@@ -1,0 +1,228 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 15px;
+    font-family: 'lucida grande',tahoma,verdana,arial,"hiragino kaku gothic pro",meiryo,"ms pgothic",sans-serif;
+    font-size: 12px;
+}
+
+*:focus {
+    outline: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: inherit;
+    border-color: #258CB9;
+}
+/*-----------*/
+
+
+/*Viết lại*/
+b {
+    font-weight: 800;
+}
+
+table {
+    border-collapse: inherit;
+    border-spacing: 2px 2px;
+}
+
+tbody {
+    border-color: #258CB9;
+}
+
+td {
+    border-color: #258CB9;
+}
+
+tr {
+    border-color: #258CB9;
+}
+
+th {
+    border-color: #258CB9;
+}
+/*-----------*/
+
+
+
+
+.page {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1300px;
+}
+
+    .page #vientren {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #258cb9;
+        height: 50px;
+        width: 100%;
+        z-index: 98; /*Nam thêm*/
+    }
+
+    .page .muc {
+        margin-bottom: 5px;
+    }
+
+        .page .muc .tieude {
+            background-color: #258cb9;
+            color: white;
+            font-size: small;
+            font-weight: bold;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .page .muc a {
+            text-decoration: none;
+            color: #258cb9;
+            display: block;
+            font-size: small;
+        }
+
+        .page .muc .tieude a {
+            color: white;
+        }
+
+        .page .muc a:hover { /*Nam Thêm*/
+            color: orange;
+        }
+
+    .page #left {
+        width: 250px;
+        padding: 5px;
+        float: left;
+        border-right: 2px solid #E8E8E8;
+    }
+
+        .page #left #hdleft1 {
+            position: fixed;
+            top: 11px;
+            z-index: 99; /*Nam thêm*/
+            border: 1px solid #070e2c ;
+            background-color: #374F8A ;
+            padding: 5px 8px 5px 8px;
+        }
+        .page #left #hdleft1 a {
+            color:white;
+            font-weight:800;
+            text-decoration:none;
+            
+        }
+        .page #left #hdleft2 {
+            position: fixed;
+            top: 7px;
+            margin-left: 100px;
+            z-index: 99; /*Nam thêm + Ky sua */
+        }
+
+        .page #left #taikhoan {
+            height: 196px;
+            border: 1px solid #258cb9;
+        }
+
+        .page #left #thoigianbieu {
+            border: 1px solid #258cb9;
+        }
+
+
+    .page #center {
+        width: 850px;
+        padding: 5px;
+        float: left;
+    }
+
+        .page #center #timeline {
+            position: fixed;
+            top: -25px;
+            width: 910px;
+            z-index: 99;
+        }
+
+    .page #right {
+        width: 165px;
+        padding: 5px;
+        float: left;
+        border-left: 2px solid #E8E8E8;
+    }
+
+        .page #right #nhomchung1 {
+        }
+
+        .page #right #khoahoc {
+            border: 1px solid #258cb9;
+        }
+
+        .page #right #tbtimkiem {
+            margin-bottom: 1px;
+        }
+
+        .page #right #txttk {
+            width: 161px;
+        }
+
+        .page #right #dsbanbe {
+            border: 1px solid #258cb9;
+        }
+
+        .page #right #Thoigianvalike {
+        }
+
+#footer {
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+    background: url(Images/footer_bg.png) no-repeat;
+    background-size: 100%;
+    border-top: 3px solid #258CB9;
+    color: White;
+    float: left;
+}

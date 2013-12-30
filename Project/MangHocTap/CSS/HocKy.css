@@ -1,0 +1,524 @@
+﻿.page #center {
+    padding: 0px;
+}
+
+    .page #center #banner-hk {
+        height: 110px;
+        background-color: #73b8ba;
+    }
+
+    .page #center .noidung #header {
+        background-color: #94a2bd;
+        border-bottom: 1px solid #E8E8E8;
+        height: 28px;
+    }
+
+        .page #center .noidung #header .btn {
+            width: 200px;
+            height: 30px;
+            margin-right: -4px;
+            cursor: pointer;
+            color: #1854A8;
+            font-weight: 800;
+            background-color: #94a2bd;
+            border-top: 1px solid#e1e1e1;
+            border-right: 1px solid white;
+            border-left: 1px solid white;
+            border-bottom: 1px solid white;
+            text-decoration: none;
+        }
+
+            .page #center .noidung #header .btn:hover {
+                color: #703434;
+            }
+
+        .page #center .noidung #header .btnkh {
+            width: 200px;
+            height: 30px;
+            margin-right: -4px;
+            color: black;
+            font-weight: 600;
+            border: 1px solid white;
+            background-color: white;
+            border-bottom: 2px solid white;
+            text-decoration: underline;
+        }
+    /*UC HỌC KỲ*/
+    .page #center .noidung #content a {
+    color: blue;
+    text-decoration: none;
+}
+
+    .page #center .noidung #content  a:hover {
+        color: red;
+    }
+    .page #center .noidung #content #hocky {
+        text-align: center;
+        padding: 5px;
+        padding-top: 0px;
+    }
+
+#hocky #duongcong {
+    border: 1px solid #ABADB3;
+    margin-top: 10px;
+    border-radius: 2em 2em 0 0;
+    border-bottom: none;
+}
+
+.page #center .noidung #content #hocky #baogv {
+    padding: 2px;
+    border: 1px solid #258CB9;
+}
+
+    .page #center .noidung #content #hocky #baogv #tieude {
+        font-weight: bold;
+        font-size: large;
+        color: white;
+        border: 1px solid #258CB9;
+        padding: 5px;
+        background-color: #258CB9;
+    }
+
+#baogv .gvhk {
+    border: 1px solid #258CB9;
+}
+
+    #baogv .gvhk .gvhk_header {
+        height: 45px;
+    }
+
+.page #center .noidung #content #hocky #baogv .kq {
+    font-weight: bold;
+    color: #e85050;
+    border: 1px solid #258CB9;
+    margin-top: 2px;
+    padding: 7px;
+    text-align: start;
+    padding-left: 51%;
+    display: block;
+}
+
+.page #center .noidung #content #hocky #baogv .kq_no {
+    font-weight: bold;
+    color: #e85050;
+    border: 1px solid #258CB9;
+    margin-top: 2px;
+    padding: 7px;
+    text-align: start;
+    padding-left: 48%;
+    display: none;
+}
+
+.page #center .noidung #content #hocky #baogv a {
+    color: blue;
+    text-decoration: none;
+}
+
+    .page #center .noidung #content #hocky #baogv a:hover {
+        color: red;
+    }
+
+.page #center .noidung #content #hocky #baogv .kq .lb {
+    margin-left: 27px;
+}
+/*UC TẠO MÔN*/
+.page #center .noidung #content #taomonhoc {
+    padding: 5px;
+    padding-top: 0px;
+}
+
+    .page #center .noidung #content #taomonhoc #baogv {
+    }
+
+        .page #center .noidung #content #taomonhoc #baogv #tieude {
+            font-weight: bold;
+            font-size: large;
+            color: white;
+            border: 1px solid #258CB9;
+            padding: 2px;
+            background-color: #258CB9;
+            text-align: center;
+            padding: 5px;
+        }
+
+#taomonhoc #baogv #kq {
+    font-weight: bold;
+    color: #e85050;
+    margin-top: 2px;
+    padding: 2px;
+    float: left;
+    width: 100%;
+    margin-left: -3px;
+}
+
+.page #center .noidung #content #taomonhoc #baogv #kq #listmon {
+    width: 205px;
+    padding: 10px;
+    float: left;
+}
+
+.page #center .noidung #content #taomonhoc #search {
+    float: left;
+    border: 1px solid #ABADB3;
+    background-color: white;
+    margin-bottom: 10px;
+}
+#taomonhoc .uchk{
+    z-index:3;
+}
+    .page #center .noidung #content #taomonhoc #search .tk {
+        height: 12px;
+        width: 175px;
+        float: left;
+        border: 1px solid white;
+        text-indent: 5px;
+        padding-top: 3px;
+    }
+
+    .page #center .noidung #content #taomonhoc #search .anh {
+        height: 19px;
+        float: left;
+        border-left: 1px solid #d0d4d8;
+        background-color: #f8f3f3;
+    }
+
+#taomonhoc .lbmon {
+    width: 199px;
+    height: 325px;
+}
+
+#taomonhoc #chitietmon {
+    float: left;
+    padding: 10px;
+    width: 570px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+    #taomonhoc #chitietmon #lbct {
+        float: left;
+        margin-top: 4px;
+        margin-right: 5px;
+    }
+
+    #taomonhoc #chitietmon .lb {
+        color: blue;
+        margin-bottom: 14px;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    #taomonhoc #chitietmon .tb {
+        margin-top: 2px;
+        margin-bottom: 8px;
+        color: black;
+    }
+
+#txtndct .clenda1 {
+    display: none;
+}
+
+#txtndct .clenda1active {
+    display: block;
+}
+
+#txtndct #imgcld1 {
+}
+
+#txtndct .tbtmh {
+    float: left;
+    padding-top: 2px;
+    margin-bottom: 4px;
+}
+
+#txtndct .tbtmhimg {
+    float: left;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+#taomonhoc #ghichu {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 48px;
+    color: black;
+    font-weight: normal;
+    font-size: small;
+}
+
+#taomonhoc table th {
+    color: #00A1DF;
+    background-color: #F7F7F7;
+    width: 175px;
+    text-align: left;
+}
+
+#taomonhoc table tr {
+    color: black;
+    font-weight: normal;
+}
+
+#taomonhoc table td .tb {
+    border-radius: 3px;
+    border-style: groove;
+    background-color: #FCFCFC;
+    text-indent: 5px;
+    width: 195px;
+}
+
+#taomonhoc table td .tb1 {
+    border-radius: 3px;
+    border-style: groove;
+    background-color: #FCFCFC;
+    width: 100px;
+}
+
+#taomonhoc table img {
+    cursor: pointer;
+}
+
+#taomonhoc .pncalen {
+    background-color: red;
+    position: absolute;
+    margin-top: -12px;
+}
+
+#taomonhoc table .calen {
+    border: 1px solid #a1a3a8;
+    border-radius: 3px;
+    background-color: #FCFCFC;
+    height: 20px;
+    width: 200px;
+}
+
+#taomonhoc table td {
+    border: none;
+}
+
+#taomonhoc table {
+    border: none;
+}
+
+#taomonhoc #bangtkb td {
+    width: 40px;
+}
+
+#taomonhoc #bangtkb .txtphong {
+    width: 40px;
+}
+
+#taomonhoc table .calen .calenimg {
+    border-left: 1px solid #d9d7d7;
+    float: left;
+    background: url('./Images/cld_trang.jpg') no-repeat;
+    height: 20px;
+    width: 17px;
+}
+
+#taomonhoc table .calen .tbcld {
+    border: none;
+    text-indent: 5px;
+    width: 178px;
+}
+
+.tbmhoc {
+    border-radius: 3px;
+    border-style: groove;
+    background-color: #FCFCFC;
+    text-indent: 5px;
+    width: 400px;
+}
+
+#taomonhoc .btnthem {
+    border: 1px solid #b5b4b4;
+    border-radius: 3px;
+    color: #097eaa;
+    height: 35px;
+    width: 70px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align:center;
+}
+
+    #taomonhoc .btnthem:hover {
+        background-color: #097eaa;
+        color: white;
+    }
+
+#taomonhoc #baogv a {
+    color: blue;
+    text-decoration: none;
+}
+
+    #taomonhoc #baogv a:hover {
+        color: red;
+    }
+
+/*UC KINH NGHIEM*/
+#content #kinhnghiem {
+    text-align: center;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+    #content #kinhnghiem #baogv {
+    text-align:left;
+    }
+
+    #content #kinhnghiem #tieude {
+        font-weight: bold;
+        font-size: large;
+        color: white;
+        border: 1px solid #258CB9;
+        padding: 5px;
+        background-color: #258CB9;
+        padding: 5px;
+    }
+    .mucbvht {
+    border:1px solid #a3c0cc;
+    padding:5px;
+    margin-bottom:5px;
+    margin-top:5px;
+    float:left;
+    width:99%;
+}
+.mucbvht .tdmuc{
+    background-color:#E8F3FB;
+    color:#258CB9;
+    font-weight:800;
+    margin-bottom:5px;
+    
+}
+.mucbvht .bodermuc{
+    color:#258CB9;
+    font-weight:800;
+    border:1px solid #a3c0cc;
+     padding:5px;
+     float:left;
+     width:98%;
+}
+.bodermuc .menumuc{
+    float:left;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+.menumuc .search,.order,.new{
+    float:left;
+    margin-right:20px;
+}
+.menumuc .dlbvmh {
+}
+.menumuc .tbbvmh{
+    height:23px;
+    width:150px;
+}
+.bodermuc .pnchuaco {
+    border: 1px solid #a3c0cc;
+    padding: 5px;
+    width: 98%;
+    text-align: center;
+    float: left;
+    /*width: 0px;
+    height: 0px;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #2f2f2f;*/
+    /*transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);*/
+}
+.bodermuc td{
+    color:#112b34;
+    font-weight:100;
+    height:30px;
+    border-color:rgba(69, 140, 185, 0.69);
+}
+.bodermuc th{
+    color:white;
+    background-color:#458CB9;
+}
+.bodermuc a{
+    color:#BB3333;
+    font-weight:100;
+    text-decoration:none;
+}
+.bodermuc a:hover{
+     color:blue;
+}
+
+/*Messege Box*/
+.msbox {
+    width: 350px;
+    height: 145px;
+    border: 2px solid #ABADB3;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    color: #097eaa;
+}
+.msboxabc {
+    width: 350px;
+    height: 145px;
+    border: 2px solid #ABADB3;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    color: #097eaa;
+}
+.mstb {
+    width: 300px;
+    height: 130px;
+    border: 2px solid #ABADB3;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    color: #097eaa;
+}
+
+.thongbaoOK {
+    border: 1px solid #b5b4b4;
+    border-radius: 3px;
+    color: #097eaa;
+    height: 25px;
+    width: 60px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+    .thongbaoOK:hover {
+        background-color: #097eaa;
+        color: white;
+    }
+
+.mdtbtieude {
+    height: 20px;
+    background-color: #ABADB3;
+    font-weight: 800;
+}
+
+.pmsbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.77);
+    /*background-color:red;*/
+    z-index: 100;
+}

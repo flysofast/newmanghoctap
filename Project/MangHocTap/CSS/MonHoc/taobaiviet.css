@@ -1,0 +1,43 @@
+﻿.he1 #hemenu3 {
+    color: black;
+    background-color:white;
+    cursor:default;
+    text-decoration:none;
+    border-bottom:2px solid white;
+    height:16px;
+}
+.submonhoc .bodermonhoc{
+    border:none;
+    padding:0;
+    width:840px;
+    float:left;
+}
+.bodermonhoc .tieudeheader {
+    
+}
+.bodermonhoc .tieudeheader a {
+    color:#160dea;
+}
+.bodermonhoc .tieudeheader a:hover {
+    color:#942323;
+}
+.kqmh .tbtieude{
+    width:780px;
+}
+.kqmh .btnguibai{
+    width:100px;
+    height:40px;
+    cursor:pointer;
+    font-weight:800;
+    color:#120f38;
+}
+.kqmh .btnguibai:hover{
+    background-color:#808080;
+}
+.submonhoc .lbloi{
+    color:red;
+    text-align:right;
+    margin-right:20px;
+    margin-top:-17px;
+    height:15px;
+}

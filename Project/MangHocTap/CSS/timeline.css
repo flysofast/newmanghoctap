@@ -1,0 +1,123 @@
+﻿#timeline {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin: auto;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    color: #e9e9e9;
+    /*color: #6d6d6d;*/
+}
+
+
+    #timeline .date {
+        position: relative;
+        text-align: center;
+        font-size: 11px;
+        top: -20px;
+        left: -30px;
+    }
+
+    #timeline .leftend .hour, #timeline .rightend .hour {
+        position: relative;
+        margin-top: -5px;
+        left: -10px;
+        color: orange;
+    }
+
+
+
+    #timeline .rightend .hour {
+        left: 2px;
+    }
+
+    #timeline div.main_line {
+        border: none;
+        border-top: 2px solid #dedddd;
+        clear: both;
+        height: 0;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        z-index: 0;
+    }
+
+    #timeline div.horizontal-line {
+        border: 0px;
+        border-left: 1px solid #dedddd;
+        clear: both;
+        height: 8px;
+        width: 0px;
+        position: absolute;
+        z-index: 1;
+        top: 47px;
+    }
+
+    #timeline div.hour-line {
+        height: 6px;
+        border-left: 1px solid #dedddd;
+    }
+
+    #timeline div.even-hour {
+        top: 48px;
+    }
+
+        #timeline div.even-hour .hour {
+            position: relative;
+            top: -18px;
+            left: -10px;
+        }
+
+    #timeline div.odd-hour {
+        /*top: 48px;
+        height: 6px;
+        border-left: 0px solid #dedddd;*/
+        border:0px;
+    }
+
+    #timeline .hour {
+        font-size: 12px;
+    }
+
+    #timeline .event {
+        background: url(../Images/main_img.png) no-repeat;
+        background-position: 0 -155px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 4;
+        top: 44px;
+    }
+    #timeline .now {
+        background: url(../Images/main_img.png) no-repeat;
+        background-position: -15px -151px;
+        width: 14px;
+        height: 24px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 4;
+        top: 49px;
+    }
+    #timeline div.event:hover {
+        background-position: -27px -155px;
+    }
+
+    #timeline .timerange {
+        height: 2px;
+        position: absolute;
+        z-index: 2;
+        top: 50px;
+        background-color:red;
+        opacity:0.6;
+        border:none;
+    }
+
+    #timeline .glow{
+        box-shadow: 0px 0px 5px #fff;
+        background-color:yellow;
+        z-index:3;
+        opacity:0.6;
+    }
+
+   

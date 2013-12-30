@@ -1,0 +1,109 @@
+﻿*
+{
+    margin: 0; padding: 0;
+}
+.BoxTinnhan
+{
+    width:100%; height:610px; border:1px solid #999999;
+}
+.dsbanbe
+{
+    width:260px; height:608px; float:left; border:1px solid #999999;
+}
+.headdsbanbe
+{
+    width:100%; height:100px; float:left;
+}
+.contentdsbanbe
+{
+    width:100%; height:400px; float:left; border-top:1px solid #999999;
+}
+.contentdsbanbe:hover
+{
+    overflow:auto;
+}
+.ItemFriend
+{
+    float:left;
+}
+.ItemFriend:hover
+{
+    background: #808080;
+}
+    .contentdsbanbe .imgAvatarbb
+    {
+        float:left; width:50px; height:50px; padding-right:3px;
+    }
+    .contentdsbanbe .Hotenbb
+    {
+        float:left; width:170px; height:50px; font-size:15px; font-family:Tahoma; line-height:50px;
+    }
+    .imgStatusbb
+    {
+        float:left; width:15px; height:15px; line-height:50px;
+    }
+.noidungtn
+{
+    width:586px; height:608px; float:left; border:1px solid #999999;
+}
+    .noidungtn .ndtop
+    {
+        width:100%; height:50px; float:left; border-bottom:1px solid #999999;
+    }
+    .noidungtn .ndcontent
+    {
+        width:100%; height:438px; border-top:1px solid #999999; float:left; overflow:hidden;
+    }
+        .noidungtn .ndcontent:hover
+        {
+            overflow-y:auto;
+            overflow-x:hidden;
+        }
+    .noidungtn .clslistTinnhan
+    {
+        width:100%; float:left; padding:6px 0 6px 2px;
+    }
+        .noidungtn .divavtNguoigui
+        {
+            width:45px; height:45px; float:left; padding-right:4px;
+        }
+        .noidungtn .listcontenttn
+        {
+            width:520px; float:left; background-color:#d8dfea;
+        }
+        .noidungtn .divnguinhan
+        {
+            float:left; width:100%; padding-bottom:3px;
+        }
+            .noidung .lblThoigiangui
+            {
+                float:right;
+            }
+    .noidungtn .ndfooter
+    {
+        width:100%; height:117px; border-top:1px solid #e0e0e0; float:left;
+    }
+        .noidungtn .ndfooter .tabletool
+        {
+            width:85%; height:100px; margin:10px auto; border:1px solid #e0e0e0;
+        }
+    .noidungtn .ckbChonGui
+    {
+        margin-right:15px;
+    }
+
+
+.divTimkiembb
+{
+    border:1px solid #808080; width:208px; height:28px; position:relative; margin:2px auto;
+}
+.txtTimkiembb
+{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.lbtnTimkiembb
+{
+    position:absolute; left:180px;
+}

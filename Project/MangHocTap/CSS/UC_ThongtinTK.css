@@ -1,0 +1,74 @@
+﻿
+#UCThongtintk
+{
+  
+}
+#UCThongtintk, #headerThongtintk
+{
+    width:100%;
+    float:left;
+}
+.imgtaikhoan
+{
+    float:left; width:80px; height:80px;
+}
+.Tuychinhtk
+{
+    width:160px;
+    float:left;
+    margin-left:5px;
+}
+.sTentaikhoan
+{
+    width:100%; float:left; margin-top:8px;
+    font-weight:800; font-size:17px;
+    color:#3b5998;
+}
+.Tuychinhtk .lblTentaikhoan
+{
+    float:left;
+}
+.Tuychinhtk .EditAcc
+{
+    font-weight:normal; font-size:14px; color: lightblue; float:left; padding:1px 4px;
+}
+.ImageLevel
+{
+    float:left; padding-right:4px;
+}
+.lblLevelName
+{
+    float:left; line-height:28px; 
+    font-size:14px; color: orange;
+}
+.ttTruonglop
+{
+    width:100%; height:90px; float:left; border-top:1px solid #258cb9;
+    font-weight:normal; color:black;
+}
+.ttTruonglop td {
+    height:20px;
+}
+#footerThongtintk
+{
+    width:100%; float:left; height:25px;
+    border-top:1px solid #258cb9;
+}
+#footerThongtintk .divDangxuat
+{
+    width:49%; height:24px; float:left; border-right:1px solid #258cb9; background-color:#258cb9;
+}
+    #footerThongtintk .divDangxuat a
+    {
+        text-decoration:none; color:white; display:block;
+        line-height:24px; text-align:center;
+    }
+    #footerThongtintk .divDangxuat a:hover
+    {
+        background-color:#94A2BD; color:white;
+    }
+#footerThongtintk .divMore
+{
+    width:50%; height:24px; float:left;
+}
+

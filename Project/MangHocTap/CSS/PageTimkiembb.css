@@ -1,0 +1,59 @@
+﻿*
+{
+    padding:0; margin:0; font-weight:normal;
+}
+.clssuattcn{width:100%; margin-left:1px; float:left; background-color:White; border:1px solid blue;}
+.header-ttcn{width:99%; margin:2px; height:23px; float:left; background:#258cb9; line-height:23px; color:#143faf; padding-left:5px;}
+.header-ttcn h3{font-weight:800; font-size:14px; line-height:20px;}
+.content-ttcn{width:99.8%; float:left; padding:1px;}
+.clschangepf h3{font-weight:800; font-size:17px;}
+
+#tabcontrol{width: 100%; font: 14px Arial}
+#tabs {width: 100%}
+#tabs ul li{
+	float: left; 
+	background: #cfcfcf; 
+	padding: 4px 10px; 
+	margin-right: 3px; 
+	list-style: none inside;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	cursor: pointer
+}
+#tabs ul li.active {background: #2e8fd7; color: White; padding-bottom: 6px }
+#tabs .contentab{clear: both; background: #eee; border: 1px solid #3d607d; padding: 2px}
+#tabs .contentab.hide{display: none}
+
+
+.clsctketquatk
+{
+    width: 99%;
+    padding: 8px 4px;
+}
+.divctbanbetk
+{
+    width:100%; float:left; height:80px; padding-top:15px;
+}
+.divctbanbetk .clsimgAvatarbb
+{
+    float:left; padding-right:4px;
+}
+.clsctketquatk .clsTenbanbe{float:left; width:80%; font-weight:800; padding-bottom:2px;}
+.divtttruonglop{width:64%; float:left;}
+.divtttruonglop .divPhandong
+{
+    float:left; width:100%;
+}
+.clsctketquatk .btnketban, .clsctketquatk .btnlabanbe
+{
+    float:left;
+}
+.divtttruonglop .lb2
+{
+    color:#258cb9;
+}
+.clsctketquatk .btnllmketban
+{
+    float:left; width:70px; height:70px;
+}

@@ -1,0 +1,82 @@
+﻿#menu
+{
+    font-size: 0.85em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color:#1854a8;
+    width:101.8%; height:100%
+}
+
+#navmn, #navmn ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    position: relative;
+    line-height: 35px;
+}
+
+#navmn a
+{
+    display: block;
+    padding: 4.5px 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navmn a:hover
+{
+    background-color:#d5e0ef;
+    color: #333;
+}
+
+#navmn li
+{
+    float: left;
+    position: relative;
+    background-color: #258cb9;
+    width:100%;
+}
+
+#navmn ul
+{
+    position: absolute;
+    display: none;
+    width: 192px;
+    top: 24px;
+    z-index:999;
+    line-height:26px;
+}
+
+#navmn li ul a
+{
+    width: 192px;
+    height: auto;
+    float: left;
+    border-left: 1px solid #1854a8;
+    border-right: 1px solid #1854a8;
+    border-bottom: 1px solid #1854a8;
+    background-color: #f5f5f5;
+    color:#000;
+}
+
+/* menu cap cao */
+#navmn ul ul
+{
+    top: auto;
+}
+
+#navmn li ul ul
+{
+    left: 190px;
+    margin: 0px 0 0 10px;
+}
+/*--------------mncc */
+#navmn li:hover ul ul, #navmn li:hover ul ul ul
+{
+    display: none;
+}
+#navmn li:hover ul, #navmn li li:hover ul, #navmn li li li:hover ul
+{
+    /*display: block;*/
+}

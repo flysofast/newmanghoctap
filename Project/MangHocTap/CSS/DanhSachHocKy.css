@@ -1,0 +1,54 @@
+﻿.page #right #khoahoc #dshocky .namhoc {
+            background-color:#A2CDED;
+            border-top:1px solid #258cb9;
+            padding:2px;
+            color: #1854A8;       
+        }
+        .page #right #khoahoc #dshocky a{
+            border:1px solid white;     
+            color:#16739b;   
+        }
+        .page #right #khoahoc #dshocky a:hover {
+            background-color: #258cb9;
+            color: white;
+            border:1px solid white;
+        }
+        .page #right #khoahoc #dshocky .hocky {
+            background-color:#E8F3FB;
+            text-align:center; 
+  
+            
+        }
+        .page #right #khoahoc #dshocky .hocky li {
+            list-style:none;
+            border-top:1px solid #258cb9;
+            
+        }
+.hockys .monhoc {
+    text-align:left; 
+    display: none;
+    margin-left:-149px;
+    position: absolute;
+    width: 147px;
+    background-color: #E8F3FB;
+    text-indent: 2px;
+    margin-top: -19px;
+    border: 1px solid #5daed1;
+}
+.hocky .hockys:hover .monhoc {
+    display: block;
+}
+.hockys .monhocs .luachon {
+    display: none;
+    display: none;
+    margin-left: -152px;
+    position: absolute;
+    width: 150px;
+    background-color: #E8F3FB;
+    text-indent: 2px;
+    margin-top: -18px;
+    border: 1px solid #258cb9;
+}
+.hocky .hockys .monhocs:hover .luachon {
+    display: block;
+}

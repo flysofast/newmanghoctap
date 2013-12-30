@@ -1,0 +1,40 @@
+﻿#TKB .tableData1 {
+    border: 0px;
+    padding: 1px;
+    background-color: #FFFFFF;
+}
+
+#TKB .rowHeader {
+    color: #FFFFFF;
+    background-color: #2E8FD7;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+#TKB .cell1 {
+    background-color: #E8F3FB;
+    padding: 3px;
+    color: #000c65;
+}
+
+#TKB .cell2 {
+    background-color: #D1E6F6;
+    padding: 3px;
+    color: #000c65;
+}
+
+#TKB td {
+    vertical-align: top;
+}
+
+#TKB a {
+    color: #0a246a;
+    text-decoration: none;
+    font-size:9px;
+}
+
+    #TKB a:hover {
+        color: #FF0000;
+    }
+

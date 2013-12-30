@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15, 15.75" name="MangHocTapDB">
+  <DataContextMoniker Name="/MangHocTapDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a3718586-d6dc-40a7-83ea-475635bc20f3" absoluteBounds="0.75, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/BaiVietGhiChu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a646201f-e9d7-436c-a2f0-f050e60cc11a" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7676c0fd-4bf0-4ba7-9b91-563589dcc4e0" absoluteBounds="3.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/Truong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="42dfa320-b6c1-4cd8-b2fa-774b7c33c82f" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e2eccd1-7849-4753-bf92-6f273d95476c" absoluteBounds="0.75, 3.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/BaiVietMonHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="842a5add-957c-49fb-8371-bacb0ce5bb77" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2cfbf84-c520-4fbd-9d5c-49ec9f581f1c" absoluteBounds="3.75, 3.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/BaiVietThongBao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90be3ada-9a1d-47f0-8a04-3599a63b2f1d" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1bbed178-93c4-43ee-895e-89291bf6375d" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/BanBe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e482aa53-2484-4eeb-b8cb-bcd797168c23" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53fc9d39-5ebe-4e8f-97a0-63a92879887a" absoluteBounds="0.75, 6.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/BinhLuanBVMH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5aa16b15-2ab3-466a-9345-3e65847630a9" absoluteBounds="0.765, 7.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc68123a-ae7d-48a7-879f-1f5a957b68cc" absoluteBounds="6.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/BinhLuanBVTB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e828df9a-e3f1-4b1e-aafb-312b8e3201bb" absoluteBounds="6.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a6e3f9c-363f-4e7b-8ab3-c9b64c0cfadb" absoluteBounds="3.75, 6.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/CapdoCH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf4ba59f-57a0-48a6-bcb4-b782bdd142ea" absoluteBounds="3.765, 7.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="227f4af3-d2fb-4a0b-ba7c-9342dd15e012" absoluteBounds="6.75, 6.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/KinhNghiemHocKy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f47611d-9a52-416f-a444-11aee48182f5" absoluteBounds="6.765, 7.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e0b4572-b003-40a2-a28c-8decbe8f57e4" absoluteBounds="9.75, 0.75, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/Khoa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5a217f1a-cf3f-4d15-8851-36af4af5af21" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ab6f4439-6aec-456e-96f9-0db5635ca6c6" absoluteBounds="0.75, 9.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/Lop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8ef33d3f-fc12-4321-ac42-e713190ff059" absoluteBounds="0.765, 10.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f31069f-fdb1-427d-812e-d77f56b18a99" absoluteBounds="9.75, 3.75, 2, 1.193992513020834">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/MoiKetBan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="809dd3b8-b312-47a4-af2c-45b73fb6ab87" absoluteBounds="9.765, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e14d0cb6-c34d-44dc-b84c-c935cc510c9c" absoluteBounds="3.75, 9.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/MonHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5f428e9-80b5-4a7e-addf-3f16083f9d17" absoluteBounds="3.765, 10.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="984e9239-a627-4042-85b6-c1670d458ab5" absoluteBounds="9.75, 5.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/MonSinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6e44f3d2-afca-4a41-b4e7-38b100e21eda" absoluteBounds="9.765, 6.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0699525a-cf2b-4b19-8f39-0083a9334d4c" absoluteBounds="6.75, 9.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/Nganh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45de1a41-1e60-4ede-b86e-164801508551" absoluteBounds="6.765, 10.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="be7e7704-8724-4b8a-a546-5bb64705e04e" absoluteBounds="9.75, 9.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/NhanThongBao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="431ba2b7-783f-4ddf-9086-3d3a78c64e46" absoluteBounds="9.765, 10.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55ea4c6f-0ad4-4aaa-9795-03f15d602839" absoluteBounds="9.75, 11.75, 2, 3.6939111328124987">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ece74e7c-19ae-42ad-aa30-b952988d60f9" absoluteBounds="9.765, 12.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c9733cf-8c73-467a-baf7-796a99f21fd7" absoluteBounds="12.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/sukiencanhan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="752debaf-d2ef-4f70-9bf7-a65a3b13781c" absoluteBounds="12.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ac3017f-fdd0-48d4-b3bb-5cff01372b48" absoluteBounds="0.75, 12.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/MangHocTapDBDataContext/TinNhan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58d144ea-7f2a-4a5a-a58f-a8c0fa11043d" absoluteBounds="0.765, 13.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

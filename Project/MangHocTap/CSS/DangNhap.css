@@ -1,0 +1,87 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+
+#header
+{
+    width:100%; height:66px; float:left;
+    background: url(Images/bg-header.png) repeat-x scroll 0% 0%, url(Images/bg-borderheader.png) repeat-x scroll left bottom, none repeat scroll 0% 0% rgb(46, 95, 153);
+}
+#webname
+{
+    width: 30%; float: left;
+    text-align:center; padding-top:14px;
+}
+#weblinkdn
+{
+    float:right; width: 40%;
+    text-align:left ; padding-top:14px;
+}
+    #weblinkdn a
+    {
+        text-transform: none;
+        padding: 6px 12px;
+        color: rgb(217, 231, 241);
+        font-family: 'MavenProMedium',Helvetica,Arial,sans-serif;
+        border: 1px solid transparent;
+        display: block;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 3px;
+        box-shadow: none;
+        transition: all 0.2s ease-in-out 0s;
+        display: inline-block;
+        text-decoration:none;
+    }
+        #weblinkdn a:hover
+        {
+            color: rgb(255, 255, 255);
+            background: none repeat scroll 0% 0% rgb(1, 78, 128);
+            border: 1px solid rgb(2, 47, 76);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.55) inset, 0px 1px rgb(0, 134, 196);
+        }
+
+.bnnameweb
+{
+    font-family: Arial; font-size:30px; font-weight:bold;
+    text-decoration:none; color:white; 
+}
+
+#content
+{
+    width:100%; height:800px; float:left;
+    background: url(Images/bg-content-left.png) repeat-y fixed left center, url(Images/bg-content-right.png) repeat-y fixed right center, url(Images/bg-content.jpg.png) repeat fixed center center, none repeat scroll 0% 0% rgb(238, 243, 246);
+}
+
+#footer
+{
+    width:100%; float:left; height:100px; padding-top:20px;
+    background: url('Images/bg-black.jpg');
+}
+#footerinfo
+{
+    width: 1000px;
+    max-width: 100%;
+    min-width:760px;
+    margin: 0 auto;
+}
+#footerinfo ul li
+{
+    list-style: none;
+    float: left;
+    margin-left:15px;
+}
+#footerinfo ul li a, #footerinfo p
+{
+    display:block; text-decoration:none; line-height: inherit; color:white;
+    font-family: "MavenProRegular",Helvetica,Arial,sans-serif;
+}
+#footerinfo p
+{
+    float:right;
+}

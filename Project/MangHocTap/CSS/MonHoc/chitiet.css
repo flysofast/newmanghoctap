@@ -1,0 +1,14 @@
+﻿.kqmh .tabmenu {
+    
+}
+ .kqmh #tabmenu li{
+    float:left;
+    background-color:#0094FF;
+    height:20px;
+    border:1px solid #164b71;
+    cursor:pointer;
+}
+ .kqmh #tabmenu{
+     margin-top:15px;
+     margin-bottom:20px;
+ }

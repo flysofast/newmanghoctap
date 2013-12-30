@@ -1,0 +1,82 @@
+﻿.he1 #hemenu2 {
+    color: black;
+    background-color:white;
+    cursor:default;
+    text-decoration:none;
+    border-bottom:2px solid white;
+    height:16px;
+}
+.submonhoc .bodermonhoc {
+     border:none;
+    padding:0;
+    width:840px;
+}
+.bodermonhoc .tieudeheader {
+
+}
+.bodermonhoc .kqmh {
+  float:left;
+}
+.bodermonhoc .kqmh {
+    float: left;
+    padding: 10px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+    .bodermonhoc .kqmh #lbct {
+        float: left;
+        margin-top: 4px;
+        margin-right: 5px;
+    }
+
+    .bodermonhoc .kqmh .lb {
+        color: blue;
+        margin-bottom: 14px;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    .bodermonhoc .kqmh .tb {
+        margin-top: 2px;
+        margin-bottom: 8px;
+        color: black;
+    }
+
+#txtndct .clenda1 {
+    display: none;
+}
+
+#txtndct .clenda1active {
+    display: block;
+}
+.tbmhoc {
+    width:433px;
+}
+.lbcsmh{
+    padding-top:2px;
+    color:black;
+}
+.calenimg{
+ padding-top:1px;
+}
+.btkb{
+    margin-right:10px;
+}
+.btnsuamh {
+    cursor:pointer;
+    border:1px solid #808080;
+    width:70px;
+    height:25px;
+    border-radius:2px;
+}
+.btnsuamh:hover {
+    background-color:#808080;
+}
+.tb1chinhsuamh {
+    
+}
+.tb2chinhsuamh {
+    border:3px solid rgba(255, 216, 0, 0.54);
+    border-radius:5px;
+}

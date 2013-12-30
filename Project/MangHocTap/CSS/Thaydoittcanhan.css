@@ -1,0 +1,45 @@
+﻿*
+{
+    padding:0; margin:0;
+}
+
+.clssuattcn{width:100%; margin-left:1px; float:left; background-color:White; border:1px solid blue;}
+.header-ttcn{width:99%; margin:2px; height:23px; float:left; background:#258cb9; line-height:23px; color:#143faf; padding-left:5px;}
+.header-ttcn h3{font-weight:800; font-size:14px; line-height:20px;}
+.content-ttcn{width:99.8%; float:left; padding:1px;}
+.clschangepf h3{font-weight:800; font-size:17px;}
+#tabcontrol{width: 100%; font: 14px Arial}
+#tabs {width: 100%}
+#tabs ul li{
+	float: left; 
+	background: #cfcfcf; 
+	padding: 4px 10px; 
+	margin-right: 3px; 
+	list-style: none inside;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	cursor: pointer
+}
+#tabs ul li.active {background: black; color: White; padding-bottom: 6px }
+#tabs .contentab{clear: both; background: #eee; border: 1px solid #3d607d; padding: 2px}
+#tabs .contentab.hide{display: none}
+
+.clsthongtintk{border-top: 1px solid #3d607d; padding:5px 10px; min-height:27px; font-size:18px; font-weight:800;}
+/*.lblTTedittk{float:left;}*/
+.linkedittk{float:right;}
+.linkeditavt{float:right; line-height:90px;}
+.PanelEditprofile{ margin:10px auto 5px 100px;}
+.clslichsumuahang{border-top: 1px solid #3d607d; padding:9px 6px;}
+.lblttphai{float:right; margin-right:10px;}
+.lblKhdangnhap{margin-left:10px; margin-bottom:10px; font:17px; font-family:.VnArial; font-weight:bold; color:Blue;}
+.ImageLoadTTKH{position:absolute; z-index:1100; float:left;}
+
+.labelavt
+{
+    width:180px; line-height:90px; float:left;
+}
+.labelshowedit
+{
+    width:95px; float:left;
+}
