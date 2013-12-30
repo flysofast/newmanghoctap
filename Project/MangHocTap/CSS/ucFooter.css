@@ -1,0 +1,29 @@
+﻿
+.divfooter
+{
+    width:90%; height:90%; padding-top:10px; margin:0 auto;
+}
+.thongtinweb
+{
+    width:40%; float:left;
+}
+.thongtinweb .tt1
+    {
+        font-size:18px;
+        float:left;
+        padding:5px;
+        font-weight:800;
+    }
+.thongtinweb .tt2
+{
+     float:left;
+     padding:4px;
+}
+.divlike
+{
+    float:right; width:200px;
+}
+.divlike .divfblike, .divlike .divgglike
+{
+    float:left; padding-right:20px;
+}

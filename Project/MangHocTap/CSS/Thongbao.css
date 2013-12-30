@@ -100,7 +100,8 @@
     width:100%; float:left; border-bottom:1px solid #dddddd; padding:3px 6px;
 }
     .divtbtinnhan .divtbtncontent:hover,
-    .divtbbanbe .divtbkbcontent:hover{background-color:rgba(100, 100, 100, 0.22);}
+    .divtbbanbe .divtbkbcontent:hover,
+    .divtbthongbao .divtbtbcontent:hover {background-color:rgba(100, 100, 100, 0.22);}
 .divtbtinnhan .imgAvatartn
 {
     float:left; padding-right:3px;
